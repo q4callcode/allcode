@@ -4,7 +4,7 @@
   "description": "ollcode website",
   "main": "app/server.js",
   "scripts": {
-    "start": "nodemon -e css,ejs,js,json --watch app --ignore feedback.json"
+    "start": "node -e css,ejs,js,json --watch app --ignore feedback.json"
   },
   "author": "Vinod silva,Thisun Gamlath",
   "license": "MIT",
